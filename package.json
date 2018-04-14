@@ -1,0 +1,40 @@
+{
+    "name": "wamigen",
+    "version": "1.0.0",
+    "description": "Web App Manifest Icon Generator",
+    "main": "wamigen.js",
+    "keywords": [],
+    "author": "HWALab",
+    "license": "MIT",
+    "dependencies": {
+        "cloudinary": "^1.11.0",
+        "image-downloader": "^3.3.0"
+    },
+    "eslintConfig": {
+        "env": {
+            "node": true
+        },
+        "extends": "eslint:all",
+        "parserOptions": {
+            "ecmaVersion": 2017,
+            "sourceType": "module"
+        },
+        "rules": {
+            "arrow-parens": ["error", "as-needed"],
+            "func-names": "off",
+            "func-style": "off",
+            "linebreak-style": ["error", "windows"],
+            "max-len": ["error", 120],
+            "multiline-ternary": ["error", "always-multiline"],
+            "no-console": "off",
+            "no-ternary": "off",
+            "object-curly-spacing": "off",
+            "object-property-newline": ["error", { "allowAllPropertiesOnSameLine": true }],
+            "one-var": "off",
+            "padded-blocks": "off",
+            "quote-props": ["error", "as-needed"],
+            "sort-keys": "off",
+            "space-before-function-paren": "off"
+        }
+    }
+}
